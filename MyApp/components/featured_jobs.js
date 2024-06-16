@@ -16,7 +16,7 @@ export default function Featured(){
                     <Text style={styles.cardHeaderText}>{item.role}</Text>
                     <Text style={styles.cardSmallText}>{item.company}</Text>
                     <View style={styles.bottomTextContainer}>
-                    <Text style={styles.bottomText}>{item.price}</Text>
+                    <Text style={styles.bottomText}>{item.salary}</Text>
                     <Text style={styles.bottomText}>{item.location}</Text>
                     </View>
                 </View>
@@ -32,7 +32,7 @@ const jobs = [
     {
     role: "Software Engineer",
     company: "Facebook",
-    price: "$180,000",
+    salary: "$180,000",
     location: "Accra, Ghana",
     logo: require(".././images/facebook_logo.png"),
     color : '#5386E4'
@@ -40,7 +40,7 @@ const jobs = [
 {
     role: "Software Engineer",
     company: "Google",
-    price: "$160,000",
+    salary: "$160,000",
     location: "New York City",
     logo: require(".././images/google_logo.png"),
     color: "#04284A"
@@ -48,7 +48,7 @@ const jobs = [
 {
     role: "Software Engineer",
     company: "Microsoft",
-    price: "$120,000",
+    salary: "$120,000",
     location: "Seattle, USA",
     logo: require(".././images/microsoft_logo.png"),
     color: "lightgreen"
@@ -56,7 +56,7 @@ const jobs = [
 {
     role: "Product Manager",
     company: "Facebook",
-    price: "$200,000",
+    salary: "$200,000",
     location: "Kumasi, Ghana",
     logo: require(".././images/facebook_logo.png"),
     color: "#5386E4"
@@ -64,7 +64,7 @@ const jobs = [
 {
     role: "iOS Developer",
     company: "Apple",
-    price: "$150,000",
+    salary: "$150,000",
     location: "San Francisco, USA",
     logo: require(".././images/apple_logo.png"),
     color: "#507E8F"
@@ -72,7 +72,7 @@ const jobs = [
 {
     role: "UI/UX Developer",
     company: "Google",
-    price: "$120,000",
+    salary: "$120,000",
     location: "Accra, Ghana",
     logo: require(".././images/google_logo.png"),
     color: "#04284A"
@@ -80,7 +80,7 @@ const jobs = [
 {
     role: "ML Engineer",
     company: "OpenAI",
-    price: "$300,000",
+    salary: "$300,000",
     location: "New York City",
     logo: require(".././images/openai_logo.png"),
     color: "green"
@@ -88,7 +88,7 @@ const jobs = [
 {
     role: "Software Engineer",
     company: "ScaleAI",
-    price: "$150,000",
+    salary: "$150,000",
     location: "Accra, Ghana",
     logo: require(".././images/scaleai_logo.png"),
     color: "purple"
