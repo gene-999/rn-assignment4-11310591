@@ -1,6 +1,6 @@
 # rn-assignment4-11310591
 
-# Jobizz App
+## Jobizz App
 
 Jobizz is a mobile application designed to help users find and apply for jobs easily. Below is a brief description of each component within the app and their usage.
 
