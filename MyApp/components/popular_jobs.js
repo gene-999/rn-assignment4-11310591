@@ -8,11 +8,12 @@ export default function Popular(){
             <Text style={styles.smallText}>See all</Text>
             </View>
         
-        <FlatList View  data={jobs}
+        <FlatList style={{display:'flex'}}  data={jobs} 
         keyExtractor={(item) => item._id}
         extraData={jobs}
+        
         renderItem={({item}) => (
-            <View style={{display: 'flex', flexDirection: 'row', gap: 10, marginLeft: 0, backgroundColor:"white", height:90, width:300, padding:30, marginLeft:10, marginBottom:10, borderRadius:25}}>
+            <View style={{ flexDirection: 'row', gap: 10, marginLeft: 0, backgroundColor:"white", height:90, width:300, padding:30, marginLeft:10, marginBottom:10, borderRadius:25, display:"flex", flexDirection:"row"}}>
                 <Image source={item.image} style={{width: 50, height: 50, borderRadius: 14, backgroundColor:"white", marginTop:-16, marginLeft:-24}} />
                
                     <View style={{display: 'flex', flexDirection: 'row', gap: 15, marginLeft: 10, marginTop: 5}}>
@@ -62,24 +63,24 @@ const jobs = [
     {
         id: 4,
         title: "Sales Manager",
-        salary: "$125,000",
-        company: "PepsiCo",
+        salary: "$125,000/y",
+        company: "Apple",
         location: "Chicago, IL",
         image: require('.././images/apple_logo.png')
     },
     {
         id: 5,
         title: "Project Manager",
-        salary: "$130,000",
-        company: "IBM",
+        salary: "$130,000/y",
+        company: "Google",
         location: "Boston, MA",
         image: require('.././images/google_logo.png')
     },
     {
         id: 6,
         title: "Cloud Solutions Architect",
-        salary: "$160,000",
-        company: "Oracle",
+        salary: "$160,000/y",
+        company: "Microsoft",
         location: "Austin, TX",
         image: require('.././images/microsoft_logo.png')
     },
